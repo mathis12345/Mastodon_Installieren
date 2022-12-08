@@ -17,3 +17,5 @@ RUBY_CONFIGURE_OPTS=--with-jemalloc rbenv install 3.0.4
 rbenv global 3.0.4
 
 gem install bundler --no-document
+
+su - postgres
