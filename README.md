@@ -91,6 +91,8 @@ Wenn das Script fertig ist:
   cd live
 
   RAILS_ENV=production bundle exec rake mastodon:setup
+  
+  exit
 </pre>
 
 ## Schritt 8:
