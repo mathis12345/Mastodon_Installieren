@@ -27,3 +27,5 @@ systemctl restart nginx
 systemctl reload nginx
 
 systemctl status nginx
+
+chmod 777 -R /home
