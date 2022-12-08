@@ -51,3 +51,22 @@ Nach ausführung des ersten Scriptes diese Befehle manuell eingeben:
 </Pre>
 
 ## Schritt 5:
+Die Globale Version von Ruby festlegen:
+
+Dann geben Sie diese Befehle manuell im Terminal ein:
+
+<Pre>
+  rbenv global 3.0.4
+  
+  gem install bundler --no-document
+  
+  su - postgres
+  
+  psql
+  
+  CREATE USER mastodon CREATEDB;
+  
+  exit
+</pre>
+
+## Schritt 6:
