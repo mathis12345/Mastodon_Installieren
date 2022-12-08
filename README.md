@@ -128,6 +128,21 @@ Dann müssen die Zeilen 37 und 38 wie folgt verändert werden:
   ssl_certificate_key   /etc/cert/example.key;
 </Pre>
 
+Dann müssen Sie die Tastenkombination "Strg + x" drücken.
+Danach drücken Sie "J".
+Und dann drücken Sie die Taste "Enter".
+
 <Pre>
   exit
+  
+  cd
+  
+  cd Mastodon_Installieren
+</Pre>
+
+## Schritt 11:
+Nun führt man das letzte Script aus, indem man folgende Befehle eingibt:
+
+<Pre>
+  ./Mastodon_005.sh
 </Pre>
