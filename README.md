@@ -127,3 +127,7 @@ Dann müssen die Zeilen 37 und 38 wie folgt verändert werden:
   ssl_certificate       /etc/cert/example.crt;
   ssl_certificate_key   /etc/cert/example.key;
 </Pre>
+
+<Pre>
+  exit
+</Pre>
