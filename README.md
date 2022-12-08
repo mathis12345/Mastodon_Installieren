@@ -96,3 +96,10 @@ Wenn das Script fertig ist:
 </pre>
 
 ## Schritt 8:
+<Pre>
+  cd
+  
+  cd Mastodon_Installieren
+  
+  ./Mastodon_004.sh
+</pre>
