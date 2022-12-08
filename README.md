@@ -103,3 +103,27 @@ Wenn das Script fertig ist:
   
   ./Mastodon_004.sh
 </pre>
+
+## Schritt 9:
+Wenn das Script fertig ist:
+
+<Pre>
+  nano mastodon
+</pre>
+
+## Schritt 10:
+Die jetzt geöffnete Datei bearbeiten:
+Jetzt muss in Zeile 19 und 28 das "example.com" durch die eben erstellte Domain ersetzt werden.
+Dann müssen die Zeilen 37 und 38 wie folgt verändert werden:
+
+<Pre>
+  Ursprünglich:
+  
+  # ssl_certificate       /etc/letsencrypt/live/example.com/fullchain.pem;
+  # ssl_certificate_key   /etc/letsencrypt/live/example.com/privkey.pem;
+  
+  Gewollter Zustand:
+  
+  ssl_certificate       /etc/cert/example.crt;
+  ssl_certificate_key   /etc/cert/example.key;
+</Pre>
