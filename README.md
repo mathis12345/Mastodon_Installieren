@@ -67,6 +67,8 @@ Dann geben Sie diese Befehle manuell im Terminal ein:
   CREATE USER mastodon CREATEDB;
   
   exit
+  
+  su - mastodon
 </pre>
 
 ## Schritt 6:
