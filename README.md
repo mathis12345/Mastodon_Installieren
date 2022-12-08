@@ -81,3 +81,8 @@ Dann geben Sie diese Befehle manuell im Terminal ein:
   
   ./Mastodon_003.sh
 </Pre>
+
+## Schritt 7:
+
+<Pre>
+  
