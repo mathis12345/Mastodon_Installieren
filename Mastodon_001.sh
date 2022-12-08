@@ -50,10 +50,6 @@ chmod 777 /usr/local
 
 chmod 777 /usr/local/bin
 
-chmod 777 /home
-
-chmod 777 /home/mastodon
-
-chmod 777 /home/mastodon/*
+chmod 777 -R /home
 
 su - mastodon
