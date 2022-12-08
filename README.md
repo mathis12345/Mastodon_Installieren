@@ -51,6 +51,7 @@ Nach ausführung des ersten Scriptes diese Befehle manuell eingeben:
 </Pre>
 
 ## Schritt 5:
+Wenn das zweite Script fertig ist.
 Die Globale Version von Ruby festlegen:
 
 Dann geben Sie diese Befehle manuell im Terminal ein:
@@ -72,3 +73,11 @@ Dann geben Sie diese Befehle manuell im Terminal ein:
 </pre>
 
 ## Schritt 6:
+
+<Pre>
+  cd
+  
+  cd Mastodon_Installieren
+  
+  ./Mastodon_003.sh
+</Pre>
