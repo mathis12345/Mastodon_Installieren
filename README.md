@@ -83,6 +83,14 @@ Dann geben Sie diese Befehle manuell im Terminal ein:
 </Pre>
 
 ## Schritt 7:
+Wenn das Script fertig ist:
 
 <Pre>
-  
+  su - mastodon
+
+  cd live
+
+  RAILS_ENV=production bundle exec rake mastodon:setup
+</pre>
+
+## Schritt 8:
